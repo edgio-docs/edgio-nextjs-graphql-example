@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import NextImage from 'next/image'
 import { useRouter } from 'next/router'
-// import { Prefetch } from '@layer0/react'
+// import { Prefetch } from '@edgio/react'
 import { useQuery } from '@apollo/client'
 import { useEffect, useState } from 'react'
 import { CATEGORIES } from '../graphql/queries'
@@ -31,9 +31,9 @@ export default function Header() {
             <NextImage
               width={200}
               height={55.59}
-              src="/layer0-icon.svg"
-              alt="Layer0 Logo"
-              title="Layer0 Logo"
+              src="/edgio-icon.svg"
+              alt="Edgio Logo"
+              title="Edgio Logo"
             />
             <div className="text-center text-gray-700">Next.js + GraphQL Example</div>
           </a>

@@ -16,8 +16,8 @@ export default function ProductPage({ slug }) {
   const meta = {
     title: product.name,
     description: product.description,
-    url: `https://layer0-docs-layer0-next-example-default.layer0.link/product/${slug}`,
-    image: `https://layer0-docs-og-image-default.layer0.link/api?title=${product.name}&width=1400&height=720`,
+    url: `https://edgio-docs-edgio-next-example-default.edgio.link/product/${slug}`,
+    image: `https://edgio-docs-og-image-default.edgio.link/api?title=${product.name}&width=1400&height=720`,
   }
 
   return (

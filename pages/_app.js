@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import { useEffect, useState } from 'react'
 import { ApolloProvider } from '@apollo/client'
 import client from '../lib/apollo-client'
-// import { prefetch } from '@layer0/prefetch/window/prefetch'
+// import { prefetch } from '@edgio/prefetch/window/prefetch'
 
 function MyApp({ Component, pageProps }) {
   const [mounted, setMounted] = useState('print')

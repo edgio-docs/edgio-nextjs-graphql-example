@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Rating from './Rating'
-// import { Prefetch } from '@layer0/react'
+// import { Prefetch } from '@edgio/react'
 
 const ListItem = ({ product, prefetchProps }) => {
   return (

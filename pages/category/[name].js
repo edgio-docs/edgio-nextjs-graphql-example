@@ -7,8 +7,8 @@ export default function ProductListingPage({ slug }) {
   const meta = {
     title: slug,
     description: slug,
-    url: `https://layer0-docs-layer0-next-example-default.layer0.link/category/${slug}`,
-    image: `https://layer0-docs-og-image-default.layer0.link/api?title=${slug}&width=1400&height=720`,
+    url: `https://edgio-docs-edgio-next-example-default.edgio.link/category/${slug}`,
+    image: `https://edgio-docs-og-image-default.edgio.link/api?title=${slug}&width=1400&height=720`,
   }
 
   const { data, loading, error } = useQuery(PRODUCTS_BY_CATEGORY, { variables: { name: slug } })
